@@ -10,3 +10,12 @@ jobs:
               run: |
                   echo Line 1
                   echo Line 2
+    second_Job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: This is Step 1
+              run: echo Creating a yml file manually
+            - name: This is Step 2
+              run: |
+                  echo Line 1
+                  echo Line 2
